@@ -969,6 +969,7 @@
             this.txbTebTaiKhoan.ReadOnly = true;
             this.txbTebTaiKhoan.Size = new System.Drawing.Size(272, 22);
             this.txbTebTaiKhoan.TabIndex = 1;
+            this.txbTebTaiKhoan.TextChanged += new System.EventHandler(this.txbTebTaiKhoan_TextChanged);
             // 
             // label11
             // 
@@ -1042,6 +1043,7 @@
             this.btnThemTaiKhoan.TabIndex = 0;
             this.btnThemTaiKhoan.Text = "Thêm ";
             this.btnThemTaiKhoan.UseVisualStyleBackColor = true;
+            this.btnThemTaiKhoan.Click += new System.EventHandler(this.btnThemTaiKhoan_Click);
             // 
             // fAdmin
             // 
