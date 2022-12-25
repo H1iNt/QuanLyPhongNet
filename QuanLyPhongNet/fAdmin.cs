@@ -31,7 +31,6 @@ namespace QuanLyPhongNet
 
             dtgvTaiKhoan.DataSource = pro.load_dl(query, new object[] {"abc", "xyz" });
         }
-
         private void btnThemTaiKhoan_Click(object sender, EventArgs e)
         {
 
